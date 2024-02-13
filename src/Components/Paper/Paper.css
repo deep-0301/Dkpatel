@@ -1,0 +1,70 @@
+/* src/HorizontalCard.css */
+.paper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  padding: 1 rem;
+  display: flex;
+  border: 7px solid var(--orangeCard);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: var(--boxShadow);
+  text-align: center;
+}
+
+.paper span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.paper span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-image img {
+  width: 600px;
+  height: 350px; /* Adjust based on your preference */
+
+  object-fit: cover; /* Keeps the aspect ratio of the image */
+}
+
+.card-content {
+  padding: 20px;
+  flex: 1; /* Allows the content to fill the available space */
+}
+
+.card-content p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stack image and content vertically on smaller screens */
+  }
+
+  .card-image img {
+    width: 100%; /* Image takes full container width on small screens */
+    height: auto; /* Adjust height automatically */
+  }
+}
+/* 
+
+height: 13rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2px 26px; */
