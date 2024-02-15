@@ -12,7 +12,7 @@ const Works = () => {
       <div className="Works">
         <div className="awesome">
           <div className="w-head">
-            <span>work for all these</span>
+            <span>Work for all these</span>
             <br />
             <span>Brands & services</span>
           </div>
