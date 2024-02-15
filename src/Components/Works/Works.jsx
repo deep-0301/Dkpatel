@@ -9,7 +9,7 @@ import { motion } from "framer-motion/dist/framer-motion";
 const Works = () => {
   return (
     <>
-      <div className="works">
+      <div className="Works">
         <div className="awesome">
           <div className="w-head">
             <span>work for all these</span>
